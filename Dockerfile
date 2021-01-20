@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM artifactory.wikia-inc.com/dockerhub/alpine:3.13
 
 RUN apk --update --no-cache add kmod binutils grep perl
 
